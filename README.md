@@ -47,7 +47,11 @@ EXTRA FEATURES :
 
 6. MongoDB Connection with Prisma: I implemented MongoDB integration using Prisma ORM by configuring a prisma.schema file, connecting via prisma.$connect(), and performing queries with Prisma Client.  
 
-# TAKE-AWAYs FROM THE FIGMA DESIGN :
+# AREAS TO IMPROVE IN FIGMA DESIGN :
+- Consistency in Design Elements: Ensure that design elements such as fonts, button styles, and color schemes are consistent across all pages. For example, the settings page has a different layout and style compared to the main dashboard.
+- The Explosion Offset in the pie chart is too much and can lead to a lack of spatial coherence in visualization.
+
+# GOOD TAKE-AWAYs FROM THE FIGMA DESIGN :
 - Modularity : Isolating the chart logic from the rest of the application, which promotes reusability and maintainability.
 
 - Dynamic Styling: The chart uses a dynamic background gradient and adapts the size to fit its container, ensuring a polished UI that adapts well to different screen sizes.
