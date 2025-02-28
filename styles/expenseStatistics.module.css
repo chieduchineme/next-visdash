@@ -1,0 +1,40 @@
+/* expenseStatistics.module.css */
+
+.expense-statistics {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expense-statistics h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.chart-container {
+  position: relative;
+  height: 300px; /* Adjust as needed */
+}
+
+@media (max-width: 600px) {
+  .chart-container {
+    height: 200px;
+    position: absolute;
+  }
+}
+
+.chart h4 {
+  margin-top: -0.2em;
+  font-size: 1.5em;
+  font-weight: 600;    
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .expense-statistics {
+    width: 100%; /* Make it take full width on small screens */
+    margin-top: 20px; /* Add space between components */
+  }
+}

@@ -1,0 +1,19 @@
+.card h4 {
+  margin-top: -0.2em;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.writeAmount {
+  font-weight: 700;
+  margin-left: -1em;
+  margin-top: 0.5em;
+}
+
+.inputAndButton {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  flex-wrap: wrap;
+}
+

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply h-full;
+	/* Replace bg-zinc-900 with a greenish background color */
+	background-color:rgb(246, 248, 248); /* Example greenish color */
+}                
+
+#__next {
+	@apply h-full;
+}
+
+html {
+	@apply h-full;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Alice', serif;
+}
+
+
+/* Parent container styles */
+.parent-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+  }
+
+  /* Sidebar styles */
+.sidebar {
+	flex: 0 0 auto;
+	width: 200px; /* Set a fixed width for the sidebar */
+  }
+  
+  /* SearchBar styles */
+  .search-bar {
+	flex: 1 1 auto; /* Allow the search bar to grow and shrink */
+	max-width: 100%; /* Ensure the search bar takes up remaining space */
+  }
+  
+  /* Adjust SearchBar for small screens */
+  @media (max-width: 600px) {
+	.parent-container {
+	  flex-direction: column;
+	  align-self: center;
+	}
+  
+	.sidebar {
+	  width: 100%; /* Sidebar takes full width on small screens */
+	}
+  
+	.search-bar {
+	  max-width: 50%;
+	  margin-top: 10px; /* Add some margin for spacing */
+	}
+  }
+  

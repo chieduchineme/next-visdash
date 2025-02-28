@@ -1,0 +1,25 @@
+/* weeklyActivity.module.css */
+
+/* Existing styles */
+.chart {
+  min-width: 600px; /* Set a minimum width for the chart */
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.chart h4 {
+  margin-top: -0.2em;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .chart {
+    min-width: 100%; /* Allow chart to take full width on small screens */
+    overflow-x: unset; /* Remove horizontal scroll */
+  }
+  
+  .chart h4 {
+    font-size: 1.2em; /* Adjust title size for small screens */
+  }
+}

@@ -1,0 +1,31 @@
+/* components/Transaction.css */
+.transaction {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+  }
+  
+  .details {
+    flex-grow: 1;
+  }
+  
+  .description {
+    font-weight: bold;
+  }
+  
+  .date {
+    color: #888;
+  }
+  
+  .amount {
+    font-weight: bold;
+  }
+  

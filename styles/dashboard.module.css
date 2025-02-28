@@ -1,0 +1,22 @@
+/* dashboard.module.css */
+
+.paddingWhenSidebarClosed {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+/* dashboard.module.css */
+@media (max-width: 768px) {
+  .expense-statistics {
+    width: 100%; /* Make it take full width on small screens */
+    margin-top: 20px; /* Add space between the components */
+  }
+
+  .weekly-activity {
+    width: 100%; /* Ensure weekly activity takes the full width */
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important; /* Force a single-column layout on smaller screens */
+  }
+}
