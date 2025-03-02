@@ -41,23 +41,11 @@ EXTRA FEATURES :
 
 3. OAuth in Next.js: I implemented OAuth authentication using NextAuth.js, integrating providers like Google and GitHub to enable secure, seamless login functionality.  
 
-4. useSWR Hook: I implemented the useSWR hook from swr for efficient client-side data fetching, leveraging automatic caching and revalidation for real-time updates.  
+4. useSWR Hook: I implemented the useSWR hook from swr for efficient client-side data fetching, leveraging automatic caching and revalidation for real-time updates.
 
 5. Sample CRUD To-Do API: I implemented a Next.js API route (pages/api/todos.ts) with GET, POST, PUT, and DELETE handlers to manage a simple To-Do list stored in a database.  
 
 6. MongoDB Connection with Prisma: I implemented MongoDB integration using Prisma ORM by configuring a prisma.schema file, connecting via prisma.$connect(), and performing queries with Prisma Client.  
-
-# AREAS TO IMPROVE IN FIGMA DESIGN :
-- Consistency in Design Elements: Ensure that design elements such as fonts, button styles, and color schemes are consistent across all pages. For example, the settings page has a different layout and style compared to the main dashboard.
-- The Explosion Offset in the pie chart is too much and can lead to a lack of spatial coherence in visualization.
-
-# GOOD TAKE-AWAYs FROM THE FIGMA DESIGN :
-- Modularity : Isolating the chart logic from the rest of the application, which promotes reusability and maintainability.
-
-- Dynamic Styling: The chart uses a dynamic background gradient and adapts the size to fit its container, ensuring a polished UI that adapts well to different screen sizes.
-
-- Clear User Feedback: The data labels are displayed with percentage values on the pie chart, providing clear and meaningful insights into the data for the user, enhancing the user experience with visually informative elements.
-
 
 # TAKE-AWAYs FROM THE CODE :
 - Responsiveness: The charts and form resizes dynamically based on the window size using TailwindCSS and resize event, ensuring a responsive UI.
